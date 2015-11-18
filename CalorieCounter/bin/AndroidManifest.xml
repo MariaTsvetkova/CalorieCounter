@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weightcontroller"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        <activity
+            android:name="com.example.weightcontroller.splashscreen.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="unspecified"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.weightcontroller.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="NewUser"
+             android:label="@string/app_name" >
+            
+        </activity>
+        <activity 
+        	android:name="UserDetails"
+ 			android:label="@string/app_name" > 
+        </activity>
+        <activity 
+            android:name=".activitycolories.ActivitySave"
+             android:label="@string/app_name" >
+         </activity>
+        <activity 
+            android:name="MainCaloriesController"
+ 			android:label="@string/app_name" >
+        </activity>
+ 
+        <activity android:name="ActivityDiary" 
+            android:label="@string/app_name">
+            
+        </activity>
+                <activity 
+            android:name=".activitycolories.ActivityEdit"
+             android:label="@string/app_name" >
+         </activity>
+		<activity android:name="EditContact"
+			android:label="@string/app_name">
+                    
+		</activity>
+                
+		<activity android:name="org.achartengine.GraphicalActivity" />
+   
+  
+    </application>
+
+</manifest>

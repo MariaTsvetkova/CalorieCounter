@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" 
+    android:background="@drawable/bmi_background">
+
+     <EditText
+         android:id="@+id/et_Date"
+         android:layout_width="wrap_content"
+         android:layout_height="60dp"
+         android:layout_alignLeft="@+id/tableLayout1"
+         android:layout_alignRight="@+id/tableLayout1"
+         android:gravity="center"
+         android:hint="22/02/2014"
+         android:background="#FFFFCC"
+         android:layout_marginBottom="10dp"
+         android:inputType="date"
+         android:focusable="false" />
+      
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent" 
+    android:shrinkColumns="*"
+    android:layout_below="@id/et_Date"
+    android:background="#FFFFCC"  >
+
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/walkBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/walk_icon"
+            android:text="" >
+        </Button>
+
+        <Button
+            android:id="@+id/runBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/run_icon"
+            android:text="">
+        </Button>
+
+        <Button
+            android:id="@+id/swimmingBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/swimming_icon"
+            android:text="" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/cyclingBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cycle_icon"
+            android:text="" >
+        </Button>
+
+        <Button
+            android:id="@+id/aerobicsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aerobics_icon"
+            android:text="" >
+        </Button>
+
+        <Button
+            android:id="@+id/lightWorkoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/light_workout"
+            android:text="">
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/vigorousBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vigorous_icon"
+            android:text="" >
+        </Button>
+    </TableRow>
+
+
+</TableLayout>
+
+
+ 
+</RelativeLayout>

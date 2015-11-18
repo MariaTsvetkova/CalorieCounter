@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_gradient"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+	<TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:gravity="center_horizontal" >
+
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_span="3"
+		    android:background="#69696920"
+		    android:padding="18dip"
+		    android:text="The Formula of Brock"
+		    android:textColor="#000"
+		    android:textSize="18dp" />
+
+	</TableRow>
+	<TableRow
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center_horizontal"
+		android:layout_gravity="center">
+
+		<TextView
+		    android:id="@+id/tv_brock"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_span="3"
+		    android:background="#C0C0C080"
+		    android:padding="18dip"
+		    android:text="Row 1"
+		    android:textColor="#000"
+		    android:textSize="14dp" />
+
+	</TableRow>
+		<TableRow
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center_horizontal"
+		android:layout_gravity="center">
+
+		<TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_span="3"
+		    android:background="#69696920"
+		    android:padding="18dip"
+		    android:text="The Dream of Lorentz"
+		    android:textColor="#000"
+		    android:textSize="18dp" />
+
+	</TableRow>
+	<TableRow
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:gravity="center_horizontal"
+		android:layout_gravity="center">
+
+		<TextView
+		    android:id="@+id/tv_lorentz"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_span="3"
+		    android:background="#C0C0C080"
+		    android:padding="18dip"
+		    android:text="Row 1"
+		    android:textColor="#000"
+		    android:textSize="14dp" />
+
+	</TableRow>
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="30dp"
+	    android:background="@color/gray"
+	    android:gravity="center"
+	    android:text="The Dream of Lorentz formula not suitable for male."
+	    android:textColor="@color/black"
+	    android:textColorHint="@color/black"
+	    android:textSize="18sp" />
+	        
+</TableLayout>
+

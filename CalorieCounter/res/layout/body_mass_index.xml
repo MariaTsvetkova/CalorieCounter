@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:shrinkColumns="*"  
+    android:stretchColumns="*"
+     android:background="@drawable/bmi_background"> 
+    <!-- Row 1 with single column -->
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:enabled="false"
+            android:text="@string/male"
+            android:textColor="@color/white" />
+ 
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/femaly"
+            android:textColor="@color/white" />
+ 
+    </RadioGroup>
+  
+    </TableRow>  
+     
+    <!-- Row 2 with 3 columns -->
+    <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_weight="1"
+        android:gravity="center">  
+        <TextView 
+            android:id="@+id/tv_25Age" android:text="18-25 age"
+            android:layout_weight="1" android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>  
+        <TextView 
+            android:id="@+id/tv_46Age" android:text="26-46 age"
+            android:layout_weight="1" android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+        <TextView 
+            android:id="@+id/tv_65Age" android:text="47-65 age"
+            android:layout_weight="1" android:background="#cac9c9"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+    </TableRow> 
+     
+    <!-- Row 3 with 2 columns -->
+    <TableRow 
+        android:layout_weight="1"
+        android:gravity="center">  
+        <TextView 
+            android:id="@+id/tv_height" android:text="Height"
+            android:layout_weight="1" android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+             
+        <TextView 
+            android:id="@+id/tv_weight" android:text="Weight"
+            android:layout_weight="1" android:background="#a09f9f"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>  
+    </TableRow>  
+        <ImageView
+        android:id="@+id/frag1_icon"
+        android:layout_weight="1"
+        android:gravity="center"
+      />
+ 
+    <TextView
+        android:id="@+id/frag1_text"
+        style="@style/dataStringName"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+     
+</TableLayout>
+
+  
+  
+  
+ 
+ 
+
